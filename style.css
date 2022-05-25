@@ -1,0 +1,153 @@
+body {
+  background-color: #0c1a11;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1600px;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 187px;
+  left: 80px;
+  height: 80px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 80px;
+}
+
+.logo-text {
+  font-family: 'IBM Plex Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 135%;
+  color: #fff;
+}
+
+.menu {
+  margin-right: 30px;
+}
+
+.menu li {
+  font-family: 'IBM Plex Mono';
+  font-style: italic;
+  display: inline;
+  color: #c1ccc7;
+  margin-right: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #02c173;
+  color: black;
+  border-radius: 15px;
+}
+
+.body {
+  position: absolute;
+  top: 326px;
+  left: 160px;
+  width: 1350px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: 'IBM Plex';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  width: 517px;
+  margin-top: 10px;
+}
+
+.green {
+  color: #02c173;
+}
+
+.desc {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #c1ccc7;
+}
+
+.image {
+  width: 580px;
+  height: 580px;
+  margin-left: 103px;
+  border-radius: 100%;
+  background: linear-gradient(to bottom right, #06cb7a, #069359);
+}
+
+.koala {
+  width: 580px;
+  height: 580px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+
+.social {
+  height: 224px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+svg {
+  display: inline-block;
+  margin-top: 40px;
+  height: 138px;
+  cursor: pointer;
+}
+
+.grt {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  fill: #02c173;
+  letter-spacing: -2px;
+  word-spacing: 5px;
+}
+
+.wht {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  fill: #fff;
+  letter-spacing: 0px;
+}
+
+.social img {
+  cursor: pointer;
+}
